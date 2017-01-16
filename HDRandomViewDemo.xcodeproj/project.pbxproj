@@ -13,6 +13,7 @@
 		D9C74DBE1E2C871400D00CC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C74DBC1E2C871400D00CC5 /* Main.storyboard */; };
 		D9C74DC01E2C871400D00CC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C74DBF1E2C871400D00CC5 /* Assets.xcassets */; };
 		D9C74DC31E2C871400D00CC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9C74DC11E2C871400D00CC5 /* LaunchScreen.storyboard */; };
+		D9C74DD01E2C87D300D00CC5 /* HDRandomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C74DCF1E2C87D300D00CC5 /* HDRandomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9C74DBF1E2C871400D00CC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C74DC21E2C871400D00CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9C74DC41E2C871400D00CC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C74DCE1E2C87D300D00CC5 /* HDRandomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRandomView.h; sourceTree = "<group>"; };
+		D9C74DCF1E2C87D300D00CC5 /* HDRandomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRandomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +65,7 @@
 				D9C74DB71E2C871400D00CC5 /* AppDelegate.m */,
 				D9C74DB91E2C871400D00CC5 /* ViewController.h */,
 				D9C74DBA1E2C871400D00CC5 /* ViewController.m */,
-				D9C74DBC1E2C871400D00CC5 /* Main.storyboard */,
-				D9C74DBF1E2C871400D00CC5 /* Assets.xcassets */,
-				D9C74DC11E2C871400D00CC5 /* LaunchScreen.storyboard */,
-				D9C74DC41E2C871400D00CC5 /* Info.plist */,
+				D9C74DCA1E2C878B00D00CC5 /* HDRandomView */,
 				D9C74DB31E2C871400D00CC5 /* Supporting Files */,
 			);
 			path = HDRandomViewDemo;
@@ -74,9 +74,22 @@
 		D9C74DB31E2C871400D00CC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D9C74DBC1E2C871400D00CC5 /* Main.storyboard */,
+				D9C74DBF1E2C871400D00CC5 /* Assets.xcassets */,
+				D9C74DC11E2C871400D00CC5 /* LaunchScreen.storyboard */,
+				D9C74DC41E2C871400D00CC5 /* Info.plist */,
 				D9C74DB41E2C871400D00CC5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C74DCA1E2C878B00D00CC5 /* HDRandomView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C74DCE1E2C87D300D00CC5 /* HDRandomView.h */,
+				D9C74DCF1E2C87D300D00CC5 /* HDRandomView.m */,
+			);
+			path = HDRandomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C74DD01E2C87D300D00CC5 /* HDRandomView.m in Sources */,
 				D9C74DBB1E2C871400D00CC5 /* ViewController.m in Sources */,
 				D9C74DB81E2C871400D00CC5 /* AppDelegate.m in Sources */,
 				D9C74DB51E2C871400D00CC5 /* main.m in Sources */,
