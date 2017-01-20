@@ -321,6 +321,7 @@
 				D9C74DC91E2C871400D00CC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

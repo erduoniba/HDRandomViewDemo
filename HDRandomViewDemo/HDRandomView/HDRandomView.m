@@ -132,6 +132,7 @@ typedef struct {
         [_randomCicleView enumerateObjectsUsingBlock:^(UIView * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             [obj removeFromSuperview];
         }];
+        [_randomCicleView removeAllObjects];
         
         for (int i=0; i<randomViewCount; i++) {
             CircleInfo circle;
