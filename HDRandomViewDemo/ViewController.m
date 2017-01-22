@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HDRadarViewController.h"
 
 #import "HDRandomView.h"
 
@@ -34,6 +35,12 @@
 
 - (IBAction)reloadAction:(id)sender {
     [_randomView reloadDataAnimated:YES];
+}
+
+- (IBAction)presentAction {
+    HDRadarViewController *vc = HDRadarViewController.new;
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 #pragma mark - HDRandomViewDelegate

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9BDA7571E3455BF003FB7F8 /* HDRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BDA7561E3455BF003FB7F8 /* HDRadarView.m */; };
+		D9BDA75B1E348738003FB7F8 /* HDRadarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BDA7591E348738003FB7F8 /* HDRadarViewController.m */; };
+		D9BDA75C1E348738003FB7F8 /* HDRadarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9BDA75A1E348738003FB7F8 /* HDRadarViewController.xib */; };
 		D9C74DB51E2C871400D00CC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C74DB41E2C871400D00CC5 /* main.m */; };
 		D9C74DB81E2C871400D00CC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C74DB71E2C871400D00CC5 /* AppDelegate.m */; };
 		D9C74DBB1E2C871400D00CC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C74DBA1E2C871400D00CC5 /* ViewController.m */; };
@@ -17,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9BDA7551E3455BF003FB7F8 /* HDRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRadarView.h; sourceTree = "<group>"; };
+		D9BDA7561E3455BF003FB7F8 /* HDRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRadarView.m; sourceTree = "<group>"; };
+		D9BDA7581E348738003FB7F8 /* HDRadarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRadarViewController.h; sourceTree = "<group>"; };
+		D9BDA7591E348738003FB7F8 /* HDRadarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDRadarViewController.m; sourceTree = "<group>"; };
+		D9BDA75A1E348738003FB7F8 /* HDRadarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDRadarViewController.xib; sourceTree = "<group>"; };
 		D9C74DB01E2C871400D00CC5 /* HDRandomViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDRandomViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C74DB41E2C871400D00CC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9C74DB61E2C871400D00CC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9BDA7541E3455B8003FB7F8 /* HDRadarView */ = {
+			isa = PBXGroup;
+			children = (
+				D9BDA7551E3455BF003FB7F8 /* HDRadarView.h */,
+				D9BDA7561E3455BF003FB7F8 /* HDRadarView.m */,
+			);
+			path = HDRadarView;
+			sourceTree = "<group>";
+		};
 		D9C74DA71E2C871400D00CC5 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +82,10 @@
 				D9C74DB71E2C871400D00CC5 /* AppDelegate.m */,
 				D9C74DB91E2C871400D00CC5 /* ViewController.h */,
 				D9C74DBA1E2C871400D00CC5 /* ViewController.m */,
+				D9BDA7581E348738003FB7F8 /* HDRadarViewController.h */,
+				D9BDA7591E348738003FB7F8 /* HDRadarViewController.m */,
+				D9BDA75A1E348738003FB7F8 /* HDRadarViewController.xib */,
+				D9BDA7541E3455B8003FB7F8 /* HDRadarView */,
 				D9C74DCA1E2C878B00D00CC5 /* HDRandomView */,
 				D9C74DB31E2C871400D00CC5 /* Supporting Files */,
 			);
@@ -153,6 +174,7 @@
 				D9C74DC31E2C871400D00CC5 /* LaunchScreen.storyboard in Resources */,
 				D9C74DC01E2C871400D00CC5 /* Assets.xcassets in Resources */,
 				D9C74DBE1E2C871400D00CC5 /* Main.storyboard in Resources */,
+				D9BDA75C1E348738003FB7F8 /* HDRadarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +189,8 @@
 				D9C74DBB1E2C871400D00CC5 /* ViewController.m in Sources */,
 				D9C74DB81E2C871400D00CC5 /* AppDelegate.m in Sources */,
 				D9C74DB51E2C871400D00CC5 /* main.m in Sources */,
+				D9BDA7571E3455BF003FB7F8 /* HDRadarView.m in Sources */,
+				D9BDA75B1E348738003FB7F8 /* HDRadarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
