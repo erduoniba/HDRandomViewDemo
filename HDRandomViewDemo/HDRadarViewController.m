@@ -13,6 +13,7 @@
 @interface HDRadarViewController ()
 
 @property (nonatomic, strong) HDRadarView *radarView;
+@property (weak, nonatomic) IBOutlet UIButton *dismissBt;
 
 @end
 
@@ -27,6 +28,8 @@
     _radarView.radarSolid = YES;
     _radarView.radarCount = 15;
     [self.view addSubview:_radarView];
+    
+    [self.view bringSubviewToFront:_dismissBt];
 }
 
 - (IBAction)dismissAction {
